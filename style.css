@@ -17,7 +17,7 @@ header {
 }
 
 form{
-    max-width: 100vw;
+
 }
 
 header,
@@ -26,7 +26,7 @@ form {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 50vw;
+
 }
 
 form input,
@@ -151,9 +151,5 @@ select {
 }
 
 .todo-input{
-    max-width: 50vw;
-    
-    @media (max-width: 768px) {
-        width: 10rem;
-      }
+ max-width: 80vw;
 }
