@@ -152,4 +152,8 @@ select {
 
 .todo-input{
     max-width: 50vw;
+    
+    @media (max-width: 768px) {
+        width: 10rem;
+      }
 }
