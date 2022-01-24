@@ -149,3 +149,7 @@ select {
 .select:hover::after {
     background: white;
 }
+
+.todo-input{
+    max-width: 50vw;
+}
